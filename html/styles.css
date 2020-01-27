@@ -1,0 +1,12 @@
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+h1::after {
+    content: "::";
+    padding: 0 0 0 10px;
+}
+h1::before {
+    content: "::";
+    padding: 0 10px 0 0;
+}
